@@ -8,7 +8,7 @@ public string WebHookUrl { get; set; } = "https://discord.com/api/webhooks/XXXXX
 ```
 Then open a cmd as admin and then type :
 ```bat
-sc create NameOfTheService start=boot binpath="PathToYourExeIncludingIt"
+sc create NameOfTheService binpath="PathToYourExeIncludingIt"
 sc start NameOfTheService
 ```
 \
